@@ -175,8 +175,10 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  margin-top: 1rem;
+  align-items: center;
 }
-header .header-buttons {
+.header-buttons {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -222,7 +224,7 @@ header .header-buttons {
   margin-top: 12rem;
   gap: 3rem;
 }
-.up-center-h1 {
+.center-h1 {
   font-size: 48px;
 }
 
@@ -250,6 +252,7 @@ header .header-buttons {
   font-size: 48px;
 }
 .down-center-desc p {
+  text-transform: uppercase;
   font-size: 24px;
 }
 .illustration2 {
@@ -297,6 +300,10 @@ header .header-buttons {
 
 /* ------------------------------------------------------ */
 
+.back-icon {
+  width: 40px;
+  display: none;
+}
 footer {
   margin: 2rem 0;
 }
@@ -335,10 +342,441 @@ textarea {
   align-items: center;
 }
 @media (max-width: 991.98px) {
+  body {
+    width: 100%;
+    font-family: "Gotham Pro";
+    color: #161b23;
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .join-waitlist-button {
+    width: 140px;
+  }
+  .logo {
+    width: 180px;
+  }
+  header a {
+    font-size: 15px;
+  }
+  .illustration1 {
+    width: 380px;
+  }
+  .desc {
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  .desc h1 {
+    font-size: 50px;
+  }
+  .desc p {
+    font-size: 18px;
+  }
+  /* ------------------------------------------------------ */
+
+  .center-h1 {
+    font-size: 38px;
+  }
+  .options {
+    align-items: unset;
+    gap: 1rem;
+  }
+  .options h1 {
+    font-size: 22px;
+  }
+  .options p {
+    font-size: 14px;
+  }
+
+  .option img {
+    width: 50px;
+  }
+  /* ------------------------------------------------------ */
+
+  .down-center-desc h1 {
+    font-size: 34px;
+  }
+  .down-center-desc p {
+    font-size: 18px;
+  }
+  .illustration2 {
+    width: 350px;
+  }
+  .down-center-desc {
+    gap: 1rem;
+  }
+
+  /* ------------------------------------------------------ */
+
+  .join-section h1 {
+    font-size: 23px;
+  }
+  .join-section p {
+    width: 70%;
+    font-size: 18px;
+    text-align: center;
+  }
+  .form-section h1 {
+    font-size: 30px;
+  }
+
+  /* ------------------------------------------------------ */
+
+  #contacts {
+    margin: 1rem 0;
+  }
+  #contacts span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  footer {
+    margin: 1rem 0;
+    font-size: 14px;
+  }
+  /* ------------------------------------------------------ */
+
+  .form-section {
+    margin: 8rem 0;
+    gap: 5rem;
+  }
+  .form-section h1 {
+    font-size: 40px;
+  }
+  .form-section .desc {
+    margin: 0;
+  }
+  .form {
+    gap: 2rem;
+  }
+  input,
+  textarea {
+    font-family: "Gotham Pro";
+    background: #ffffff;
+    border: 1px solid #d8dbe1;
+    border-radius: 4px;
+    width: 100%;
+    padding: 10px;
+    color: #7a859d;
+  }
+  .form-section img {
+    width: 100%;
+    padding: 10px;
+  }
+
+  /* ------------------------------------------------------ */
+
+  .thanks-section .desc {
+    margin-top: 2rem;
+    align-items: center;
+  }
 }
 
 @media (max-width: 767.98px) {
+  body {
+    width: 100%;
+    font-family: "Gotham Pro";
+    color: #161b23;
+  }
+  .container {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .illustration1 {
+    width: 250px;
+  }
+  header a {
+    font-size: 15px;
+  }
+  .join-waitlist-button {
+    width: 120px;
+  }
+  .logo {
+    width: 150px;
+  }
+  .up-center {
+    margin-top: 5rem;
+  }
+  .desc {
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .desc h1 {
+    font-size: 40px;
+  }
+  .desc p {
+    font-size: 14px;
+  }
+  /* ------------------------------------------------------ */
+
+  .center-h1 {
+    font-size: 38px;
+  }
+  .options {
+    align-items: unset;
+    gap: 1rem;
+  }
+  .options h1 {
+    font-size: 22px;
+  }
+  .options p {
+    font-size: 14px;
+  }
+  .option {
+    gap: 1rem;
+  }
+  .option img {
+    width: 45px;
+  }
+
+  /* ------------------------------------------------------ */
+
+  .down-center {
+    gap: 1rem;
+  }
+  .down-center-desc h1 {
+    font-size: 30px;
+  }
+  .down-center-desc p {
+    font-size: 14px;
+  }
+  .illustration2 {
+    width: 250px;
+  }
+  .down-center-desc {
+    gap: 1rem;
+  }
+
+  /* ------------------------------------------------------ */
+
+  .join-section {
+    padding: 2rem;
+    margin: 3rem;
+  }
+  .join-section h1 {
+    font-size: 20px;
+  }
+  .join-section p {
+    width: 70%;
+    font-size: 14px;
+    text-align: center;
+  }
+  .form-section h1 {
+    font-size: 30px;
+  }
+
+  /* ------------------------------------------------------ */
+
+  #contacts {
+    margin: 2rem 0;
+    gap: 2rem;
+  }
+  #contacts span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  footer {
+    margin: 1rem 0;
+    font-size: 12px;
+  }
+  /* ------------------------------------------------------ */
+
+  .form-section {
+    gap: 5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin: 3rem 0;
+  }
+  .form-section h1 {
+    font-size: 40px;
+  }
+  .form-section p {
+    font-size: 30px;
+  }
+  .form-section .desc {
+    margin: 0;
+    gap: 2rem;
+  }
+
+  /* ------------------------------------------------------ */
+
+  .thanks-section .desc {
+    margin-top: 5rem;
+    align-items: center;
+  }
 }
 
 @media (max-width: 575.98px) {
+  body {
+    width: 100%;
+    font-family: "Gotham Pro";
+    color: #161b23;
+  }
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .logo {
+    width: 230px;
+  }
+  .header-buttons {
+    display: none;
+  }
+
+  .illustration1 {
+    width: 280px;
+  }
+  .illustration2 {
+    width: 280px;
+  }
+  .join-waitlist-button {
+    width: 180px;
+  }
+  .main {
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 2rem;
+    align-items: center;
+  }
+  .desc {
+    gap: 3rem;
+  }
+  .desc h1 {
+    font-size: 40px;
+  }
+  .desc p {
+    font-size: 18px;
+  }
+
+  .options {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .option {
+    gap: 2rem;
+  }
+  .options h1 {
+    font-size: 28px;
+  }
+  .options p {
+    font-size: 18px;
+  }
+  .option img {
+    width: 60px;
+  }
+
+  /* ------------------------------------------------------ */
+
+  .down-center {
+    margin-top: 3rem;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+  .down-center .down-center-desc {
+    gap: 2rem;
+  }
+  .down-center-desc h1 {
+    font-size: 32px;
+  }
+  .down-center-desc p {
+    font-size: 16px;
+  }
+  .down-center-desc {
+    gap: 1rem;
+  }
+
+  /* ------------------------------------------------------ */
+
+  .join-section {
+    padding: 2rem;
+    margin: 2rem 0 0 0;
+  }
+  .join-section h1 {
+    font-size: 20px;
+  }
+  .join-section p {
+    width: 70%;
+    font-size: 14px;
+    text-align: center;
+  }
+  .form-section h1 {
+    font-size: 30px;
+  }
+
+  /* ------------------------------------------------------ */
+
+  #contacts {
+    flex-direction: column;
+    margin: 2rem 0;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+  #contacts span {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  /* ------------------------------------------------------ */
+
+  .form-section {
+    gap: 5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin: 3rem 0;
+  }
+  .form-section h1 {
+    font-size: 40px;
+  }
+  .form-section p {
+    font-size: 30px;
+  }
+  .form-section .desc {
+    margin: 0;
+    gap: 2rem;
+  }
+  .form {
+    align-items: center;
+  }
+
+  input,
+  textarea {
+    font-family: "Gotham Pro";
+    background: #ffffff;
+    border: 1px solid #d8dbe1;
+    border-radius: 4px;
+    width: 90%;
+    padding: 10px;
+    color: #7a859d;
+  }
+  .form-section a,
+  .form-section a img {
+    width: 95%;
+  }
+
+  footer {
+    margin: 1rem 0;
+    font-size: 12px;
+  }
+
+  .thanks-section .desc {
+    margin-top: 5rem;
+    align-items: center;
+  }
+
+  .back-icon {
+    display: block;
+  }
 }
