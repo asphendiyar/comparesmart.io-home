@@ -434,6 +434,12 @@ input[type="submit"] {
   color: #161b23;
   padding: 15px;
   width: 106%;
+  -webkit-background: #c8f05a;
+  -webkit-border: none;
+  -webkit-cursor: pointer;
+  -webkit-color: #161b23;
+  -webkit-padding: 15px;
+  -webkit-width: 106%;
 }
 
 input[type="submit"]:hover {
