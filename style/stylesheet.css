@@ -449,6 +449,7 @@ input[type="submit"] {
   font-size: 18px;
   font-style: normal;
   height: 52px;
+  font-weight: 300;
 }
 
 input[type="submit"]:hover {
@@ -929,6 +930,7 @@ input[type="submit"]:hover {
     -webkit-color: #161b23;
     -webkit-padding: 15px;
     -webkit-width: 106%;
+    font-weight: 300;
   }
 
   .thanks-section .desc {
