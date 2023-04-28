@@ -149,7 +149,9 @@
 body {
   width: 100%;
   font-family: "Gotham Pro";
+  font-style: normal;
   color: #161b23;
+  font-weight: 300;
 }
 
 a {
@@ -175,9 +177,8 @@ p {
   font-size: 18px;
 }
 .join-waitlist-button:hover {
-  background: #c8f05a;
-  opacity: 0.4;
-  transition: 0.7s;
+  background: #bee74e;
+  transition: 1s;
 }
 .join-waitlist-button-black {
   display: flex;
@@ -190,9 +191,8 @@ p {
   font-size: 18px;
 }
 .join-waitlist-button-black:hover {
-  background: #eef0f4;
+  background: #212935;
   transition: 0.3s;
-  color: #b6bdcb;
 }
 .container {
   width: 80%;
@@ -331,8 +331,8 @@ header {
 /* ------------------------------------------------------ */
 
 .contact-a:hover {
-  opacity: 0.4;
-  transform: 0.7s;
+  color: #a9d72e;
+  transform: 1s;
 }
 #contacts {
   margin: 3rem 0;
@@ -347,6 +347,7 @@ header {
   gap: 1rem;
   cursor: pointer;
   width: 459px;
+  font-weight: 300;
 }
 .hr {
   width: 100%;
@@ -366,9 +367,8 @@ header {
 }
 
 .back-button-icon:hover {
-  background: #eef0f4;
-  color: #b6bdcb;
-  transition: 0.7s;
+  background: #212935;
+  transition: 1s;
 }
 .back-button {
   background: #161b23;
@@ -378,9 +378,8 @@ header {
 }
 
 .back-button:hover {
-  background: #eef0f4;
-  color: #b6bdcb;
-  transition: 0.7s;
+  background: #212935;
+  transition: 1s;
 }
 .back-button-green {
   background-color: #c8f05a;
@@ -390,8 +389,8 @@ header {
 }
 
 .back-button-green:hover {
-  opacity: 0.4;
-  transition: 0.7s;
+  background: #bee74e;
+  transition: 1s;
 }
 footer {
   margin: 2rem 0;
@@ -401,14 +400,15 @@ footer {
   gap: 5rem;
 }
 .form-section h1 {
-  font-size: 40px;
+  font-size: 56px;
 }
 .form-section .desc {
   margin: 0;
   width: 600px;
+  gap: 20px;
 }
 .form-section .desc h1 {
-  width: 450px;
+  width: 650px;
 }
 .form {
   gap: 2rem;
@@ -422,9 +422,15 @@ textarea {
   border: 1px solid #d8dbe1;
   border-radius: 4px;
   width: 100%;
-  padding: 10px;
+  padding: 0 14px;
   color: #7a859d;
   overflow: none;
+  font-size: 16px;
+  height: 52px;
+}
+textarea {
+  padding: 10px 14px;
+  height: 82px;
 }
 
 input[type="submit"] {
@@ -440,11 +446,14 @@ input[type="submit"] {
   -webkit-color: #161b23;
   -webkit-padding: 15px;
   -webkit-width: 106%;
+  font-size: 18px;
+  font-style: normal;
+  height: 52px;
 }
 
 input[type="submit"]:hover {
-  opacity: 0.4;
-  transition: 0.3s;
+  background: #bee74e;
+  transition: 1s;
 }
 
 /* ------------------------------------------------------ */
@@ -845,18 +854,27 @@ input[type="submit"]:hover {
     flex-direction: column;
     margin: 2rem 0;
     align-items: flex-start;
-    gap: 2rem;
+    gap: 2.5rem;
     width: unset;
   }
   #contacts span {
     display: flex;
-    align-items: center;
-    gap: 2rem;
+    align-items: flex-start;
+    gap: 2.5rem;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 18px;
     width: unset;
   }
-
+  #contacts img {
+    width: 15px;
+    margin: 0;
+  }
+  footer {
+    margin: 3rem 0;
+  }
+  footer p {
+    font-size: 16px;
+  }
   /* ------------------------------------------------------ */
   form {
     width: 390px;
@@ -891,7 +909,7 @@ input[type="submit"]:hover {
     width: unset;
   }
   .form {
-    width: 95%;
+    width: 92%;
   }
   .form-section a,
   .form-section a img {
@@ -904,18 +922,13 @@ input[type="submit"]:hover {
     cursor: pointer;
     color: #161b23;
     padding: 15px;
-    width: 106%;
+    width: 109%;
     -webkit-background: #c8f05a;
     -webkit-border: none;
     -webkit-cursor: pointer;
     -webkit-color: #161b23;
     -webkit-padding: 15px;
     -webkit-width: 106%;
-  }
-
-  footer {
-    margin: 1rem 0;
-    font-size: 12px;
   }
 
   .thanks-section .desc {
