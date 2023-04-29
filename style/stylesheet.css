@@ -260,6 +260,7 @@ header {
 
 .options {
   align-items: unset;
+  gap: 1.5rem;
 }
 .option {
   justify-content: unset;
